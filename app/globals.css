@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@plugin "daisyui";
+
+/* ลงทะเบียนฟอนต์ LINESeedSansTH หลายน้ำหนัก */
+@font-face {
+  font-family: 'LINESeedSansTH';
+  src: url('/fonts/LINESeedSansTH_A_Rg.ttf') format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'LINESeedSansTH';
+  src: url('/fonts/LINESeedSansTH_A_Bd.ttf') format('truetype');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'LINESeedSansTH';
+  src: url('/fonts/LINESeedSansTH_A_XBd.ttf') format('truetype');
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: 'LINESeedSansTH';
+  src: url('/fonts/LINESeedSansTH_A_He.ttf') format('truetype');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'LINESeedSansTH';
+  src: url('/fonts/LINESeedSansTH_A_Th.ttf') format('truetype');
+  font-weight: 100;
+}
+
+body {
+  font-family: 'LINESeedSansTH', sans-serif;
+  background-color: #fff;
+  color: #111;
+}
